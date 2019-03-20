@@ -69,6 +69,7 @@
     <javassist.version>3.23.1-GA</javassist.version>
     <xerces.version>2.12.0.SP02</xerces.version>
     <artemis.version>2.6.3.jbossorg-00014</artemis.version>
+    <netty.all.version>4.1.24.Final</netty.all.version>
     <xnio.version>3.6.5.Final</xnio.version>
     <jboss.jaxws.api.version>1.0.0.Final</jboss.jaxws.api.version>
     <jsr181.api.version>1.0-MR1</jsr181.api.version>
@@ -289,6 +290,12 @@
         <groupId>org.apache.activemq</groupId>
         <artifactId>artemis-jms-client</artifactId>
         <version>${artemis.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>io.netty</groupId>
+        <artifactId>netty-all</artifactId>
+        <version>${netty.all.version}</version>
       </dependency>
 
       <dependency>
